@@ -47,9 +47,7 @@ export const CameraScreen = ({ navigation }) => {
   }
 
   const confirmPhoto = () => {
-    // Handle confirmed photo - navigate or save
-    console.log('Photo confirmed:', imageUri);
-    // navigation.navigate('NextScreen', { imageUri }); // Example
+    navigation.navigate('Canvas', { imageUri });
   }
 
 
